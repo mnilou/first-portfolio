@@ -10,7 +10,7 @@ What problem does it solve? What did you learn? What makes your project stand ou
 
 ## Live Site Demo
 
-https://mnilou.github.io/code-refactor/
+https://mnilou.github.io/first-portfolio/
 
 ## Installation
 
