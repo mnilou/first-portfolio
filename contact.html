@@ -22,5 +22,28 @@
             </li>
         </ul>
       </nav>
+      <div class="container">
+        <div class="jumbotron about-me">
+          <h1>
+            Contact Me
+            <img src="Image.jpg" alt="Nilou Mostofi" class="profile-pic" />
+          </h1>
+        </div>
+        <div class="form-group main-font">
+        <label for="usr">Name:</label>
+        <input type="text" class="form-control main-font" id="usr">
+      </div>
+      <!--Need to play with margins here-->
+      <form action="/action_page.php">
+        <div class="form-group main-font">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control main-font" id="email">
+        </div>
+      <div class="form-group main-font">
+        <label for="comment">Message:</label>
+        <textarea class="form-control" rows="5" id="comment"></textarea>
+      </div>
+      <button type="submit" class="btn btn-default main-font" style="background-color:  rgb(153, 153, 153);">Submit</button>
+      </form>
 </body>
 </html>
