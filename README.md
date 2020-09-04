@@ -4,7 +4,7 @@
 
 This project is a portfolio for a full stack web developer. The project contains three pages consisting of About Me, Portfolios, and Contact Me. The goal was to make a marketable webpage that is user-friendly across many screens.
 
-The object of this project is to make a responsive design for mobile-first application. The project uses Bootstrap, CSS and inline HTML styling. 
+The object of this project is to make a responsive design for mobile-first application. The project uses Bootstrap, CSS and inline HTML styling with minimum media queries. It includes a responsive layout and images.
 
 What problem does it solve? What did you learn? What makes your project stand out? If your project has a lot of features, consider adding a heading called "Features" and listing them here.
 
