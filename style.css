@@ -8,9 +8,9 @@
    margin: 0 auto;  
 }
 .profile-pic {
-   margin-left: 40px;
+   margin-left: 10px;
    border-radius: 50%;
-   width: 350px;
+   width: 290px;
 }
 .skills {
     font-size: 40px;
@@ -39,4 +39,9 @@
     body {
       background-color: whitesmoke;
     }
+    .profile-pic {
+        margin-left: 0px;
+        border-radius: 50%;
+        width: 230px;
+     }
   }
