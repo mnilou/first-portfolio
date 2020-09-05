@@ -34,24 +34,26 @@
     color: rgb(169, 112, 66);  
     background-color:  rgb(153, 153, 153);
 }
-.fa-linkedin {
-    background: rgb(25, 29, 72);
-    color: rgb(169, 112, 66);
+.fa-envelope {
+     color: rgb(169, 112, 66);
 }
 .fa:hover {
     opacity: 0.7;
 }
-.website {
-    background-color: rgb(25, 29, 72);
+.fa-linkedin {
     color: rgb(169, 112, 66);
-    border-radius: 50%;
-}  
-.website:hover {
-    opacity: 0.7;
+    border-radius: 20%;
 }
+.fa-facebook {
+    color: rgb(169, 112, 66);
+    border-radius: 20%;
+}
+/* Need help with the website link */
+.fa-website {
+    color: rgb(169, 112, 66);
+}  
 @media screen and (max-width: 768px) {
-    /* The body's bg color will be #333 */
-    body {
+      body {
       background-color: whitesmoke;
     }
     .profile-pic {
