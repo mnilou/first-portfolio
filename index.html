@@ -14,11 +14,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-      <img src="logo.jpg" class="rounded logo" alt="Logo" />
+      <img style="width: 80px;" src="logo.jpg" class="rounded logo" alt="Logo" />
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" href="index.html">About Me</a>
@@ -35,7 +36,7 @@
     <!--End Nav-->
     <div class="container">
       <div class="row">
-        <div class="jumbotron about-me">
+        <div class="jumbotron heading">
           <h1>About Me</h1>
         </div>
       </div>
@@ -48,7 +49,7 @@
           <p style="font-size: 300%; color: rgb(25, 29, 72)">Nilou Mostofi</p>
           <p style="font-size: 180%; margin-top: -25px">Full Stack Developer</p>
           <br />
-          <p class="main-font">
+          <p style="font-size: 120%;" class="main-font">
             My approach to web development is holistic and caters to both the
             user experience and functionality. I am proficient in both front and
             back end coding. I design user-friendly websites, develop servers
@@ -62,11 +63,16 @@
       </div>
     </div>
     <br /><br />
-    <!--Need to include icons for CSS, HTML, etc-->
+    <!--Why are icons not showing up etc-->
     <div class="container">
       <div class="row">
         <div class="jumbotron skills">
           <h1>Skills</h1>
+          <span style="font-size: 1em; color: rgb(25, 29, 72)">
+            <i class="fa fa-css3" style="padding: 1em"></i>
+            <i class="fa fa-html5" style="padding: 1em"></i>
+            <i class="fa fa-code" style="padding: 1em"></i>
+          </span>
         </div>
       </div>
     </div>
@@ -74,7 +80,8 @@
     <!--Need to understand how to make links work and spacing and sticky to footer-->
     <div class="panel-footer">
       <a
-        href="nilou@km-direct.com"
+        href="mailto:nilou@km-direct.com"
+        target="_top"
         class="fa fa-envelope"
         aria-hidden="true"
       ></a>
@@ -84,7 +91,6 @@
       ></a>
       <a
         href="https://www.facebook.com/nilou.mostofi.5/"
-        class="fa fa-facebook"
         class="fa fa-facebook fa:hover"
       ></a>
       <!--Not showing up-->
