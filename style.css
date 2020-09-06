@@ -48,7 +48,8 @@
 .fa-website {
     color: rgb(169, 112, 66);
 }  
-@media screen and (max-width: 768px) {
+/*just not understanding this*/
+@media screen and (max-width: 320px) {
       body {
       background-color: whitesmoke;
     }
@@ -57,4 +58,6 @@
         border-radius: 50%;
         width: 230px;
      }
+    .card {
+    
   }
