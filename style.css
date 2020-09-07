@@ -2,13 +2,14 @@
     background-color:  rgb(153, 153, 153);
     color:  rgb(169, 112, 66);
     text-align: center;
-    max-width: 500px;
+    /* max-width: 500px; */
     margin: auto;
     padding: 1em;
+    width: 100%;
 }
 /* in main page */
 .profile-pic {
-   margin-left: 10px;
+   margin-left: 30px;
    border-radius: 50%;
    width: 290px;
 }
@@ -21,6 +22,16 @@
     margin: auto;
     padding: 1em;
 }
+/*in portfolio page*/
+.card {
+    margin: 0 auto;
+    height: 100%;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* in contact page */
 .form-group {
     margin: 30px;    
@@ -31,6 +42,7 @@
     text-align: center;
     color: rgb(169, 112, 66);  
     background-color:  rgb(153, 153, 153);
+    margin-bottom: 0;
 }
 .fa-envelope {
      color: rgb(169, 112, 66);
@@ -67,8 +79,16 @@ body {
         border-radius: 50%;
         width: 300px;
 }
+}
+
 @media screen and (max-width: 579px) {
 .container {
     margin-right: -15px;
 }    
+}
+@media screen and (max-width: 1432px) {
+.card {
+    width: 100%;
+}
+
 }
