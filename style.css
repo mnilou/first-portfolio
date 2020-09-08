@@ -1,94 +1,98 @@
 .heading {
-    background-color:  rgb(153, 153, 153);
-    color:  rgb(169, 112, 66);
-    text-align: center;
-    /* max-width: 500px; */
-    margin: auto;
-    padding: 1em;
-    width: 100%;
+  background-color: rgb(153, 153, 153);
+  color: rgb(169, 112, 66);
+  text-align: center;
+  /* max-width: 500px; */
+  margin: auto;
+  padding: 1em;
+  width: 100%;
 }
 /* in main page */
 .profile-pic {
-   margin-left: 30px;
-   border-radius: 50%;
-   width: 290px;
+  margin-left: 30px;
+  border-radius: 50%;
+  width: 290px;
 }
 .skills {
-    font-size: 40px;
-    text-align: center;
-    color: rgb(169, 112, 66);  
-    background-color:  rgb(153, 153, 153);
-    max-width:500px;
-    margin: auto;
-    padding: 1em;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(169, 112, 66);
+  background-color: rgb(153, 153, 153);
+  max-width: 500px;
+  margin: auto;
+  padding: 1em;
 }
 /*in portfolio page*/
 .card {
-    margin: 0 auto;
-    height: 100%;
+  margin: 0 auto;
+  height: 100%;
 }
 .row {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* in contact page */
 .form-group {
-    margin: 30px;    
+  margin: 30px;
 }
 /*in all pages */
 .panel-footer {
-    font-size: 30px;
-    text-align: center;
-    color: rgb(169, 112, 66);  
-    background-color:  rgb(153, 153, 153);
-    margin-bottom: 0;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(169, 112, 66);
+  background-color: rgb(153, 153, 153);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 .fa-envelope {
-     color: rgb(169, 112, 66);
+  color: rgb(169, 112, 66);
+  padding: 20px;
 }
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 .fa-linkedin {
-    color: rgb(169, 112, 66);
-    border-radius: 20%;
+  color: rgb(169, 112, 66);
+  border-radius: 20%;
+  padding: 20px;
 }
 .fa-facebook {
-    color: rgb(169, 112, 66);
-    border-radius: 20%;
+  color: rgb(169, 112, 66);
+  border-radius: 20%;
+  padding: 20px;
 }
 /* Need help with the website link */
 .fa-website {
-    color: rgb(169, 112, 66);
-}  
+  color: rgb(169, 112, 66);
+}
 /*just not understanding this*/
 @media screen and (min-width: 771px) {
-body {
+  body {
     background-color: whitesmoke;
-}
-.profile-pic {
+  }
+  .profile-pic {
     margin-left: 10px;
     border-radius: 50%;
     width: 230px;
-}
+  }
 }
 @media screen and (min-width: 1000px) {
-.profile-pic {
-        margin-left: 10px;
-        border-radius: 50%;
-        width: 300px;
+  .profile-pic {
+    margin-left: 10px;
+    border-radius: 50%;
+    width: 300px;
+  }
 }
-}
-
 @media screen and (max-width: 579px) {
-.container {
+  .container {
     margin-right: -15px;
-}    
+  }
 }
 @media screen and (max-width: 1432px) {
-.card {
+  .card {
     width: 100%;
-}
-
+  }
 }
